@@ -1,0 +1,32 @@
+{
+  "name": "dark-plus-plus",
+  "displayName": "Dark++",
+  "description": "The color theme of Visual Studio",
+  "version": "0.0.1",
+  "publisher": "WalterGates",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/WalterGates/dark-plus-plus.git"
+  },
+  "keywords": [
+	"theme",
+	"dark theme",
+	"visual studio",
+	"c++"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark++-color-theme.json"
+      }
+    ]
+  }
+}
